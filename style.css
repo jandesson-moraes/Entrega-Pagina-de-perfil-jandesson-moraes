@@ -1,0 +1,108 @@
+body{
+    background-color: rgb(226, 226, 226);
+    font-family: 'Inter', sans-serif;
+    margin: 0 auto;
+    width: 60%;
+}
+
+.meuNome{
+    background-color: rgb(31, 31, 31);
+    color: rgb(193, 193, 193);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+.fotoPerfil {
+    background-color: rgba(0, 0, 0, 0.211);
+    border-radius: 10px;
+    height: 170px;
+    padding-left: 20px;
+    padding-top: 20px;
+    margin-bottom: 30px;
+    position: relative;
+    top: 0;
+}
+
+.fotoPerfil :hover{
+    top: -4px;
+    transition: all .2s ease-in-out;
+}
+
+.perfil {
+    border-radius: 10px;
+    position: relative;
+    top: 0;
+}
+
+.perfil :hover{
+    top: -4px;
+    box-shadow: 0 4px 4px rgba(22, 22, 22, 0.65);
+    transition: all .2s ease-in-out;
+}
+
+.redesSociais{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    width: 150px;
+    height: 150px;
+    gap: 10px;
+    position: relative;
+    top: 0;
+}
+
+.redesSociais :hover{
+    top: -4px;
+    box-shadow: 0 4px 4px rgba(22, 22, 22, 0.65);
+    transition: all .2s ease-in-out;
+}
+
+.social{
+    background-color: rgba(0, 0, 0, 0.251);
+    display: flex;
+    justify-content: baseline;
+    gap: 20px;
+    box-sizing: border-box;
+    padding: 5px 10px 5px 10px;
+    align-items: center;
+    border-radius: 5px;
+    height: 50px;
+    width: 150px;
+    margin: 0 auto;
+    position: relative;
+    top: 0;
+}
+
+.textos02 {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.footerr{
+    display: flex;
+    align-items: center;
+    background-color: rgb(31, 31, 31);
+    height: 120px;
+    margin: 0 auto;
+    gap: 20px;
+    padding:  0px 20px 0px 20px;
+    margin-bottom: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.textColor {
+    color: rgb(23, 200, 0);
+}
+
+.logoSpotify {
+    border-radius: 60px;
+    padding:4px;
+}
